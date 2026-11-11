@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Firebase | CI/CD</title></head>
+<body><main class="card"><span class="badge">Atividade prática • GitHub Actions</span><h1>Login com Firebase 🔥</h1><p id="status" role="status">Carregando...</p>
+<section id="auth-area"><form id="auth-form"><label>E-mail<input id="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com"></label><label>Senha<input id="password" type="password" autocomplete="current-password" minlength="6" required placeholder="Mínimo de 6 caracteres"></label><div class="actions"><button type="submit" id="login">Entrar</button><button type="button" id="signup" class="secondary">Criar conta</button></div></form></section>
+<section id="profile" hidden><h2>Usuário autenticado ✅</h2><p id="who"></p><form id="note-form"><label>Mensagem para o Firestore<input id="note" type="text" maxlength="200" required placeholder="Escreva algo para salvar"></label><button type="submit">Salvar no Firestore</button></form><p id="saved"></p><button type="button" id="logout" class="secondary">Sair</button></section>
+<footer>Projeto demonstrativo de autenticação e banco de dados.</footer></main><script type="module" src="/src/main.js"></script></body></html>
